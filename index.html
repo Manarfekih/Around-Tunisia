@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>around Tunisia</title>
+</head>
+<body>
+    <header>
+
+      <i class="fas fa-bars" id="menu-bar" onclick="showmenu()"></i>
+      <a href="" class="logo">around 
+        <img src="images/logo.png" />
+      </a>
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#gallary">gallary</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+      </nav>
+      <div class="icon">
+        <i class="fas fa-search" id="search-btn" onclick="showbar()"></i>
+        <i class="fas fa-user" onclick="showform()"></i>
+      </div>
+      <form class="search-form">
+        <input type="search" id="search-bar" placeholder="what are you looking for...">
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+      <div class="login-form">
+        <i class="fas fa-times" id="form-close" onclick="hideform()"></i>
+        <form>
+          <h3>login</h3>
+          <input type="email" placeholder="enter your email" class="box">
+          <input type="password" placeholder="enter your password" class="box">
+          <input type="submit" value="login now" class="btn">
+          <input type="checkbox" id="remember">
+          <label for="remember">remember me</label>
+          <p>forget password ?<a>click here</a></p>
+          <p>don't have account ?<a>sign up</a></p>
+
+        </form>
+      </div>
+    </header>
+    <!--------------------SECTION-HOME---------------------------------------------------------------------------------------------------------------------------------------->
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------>  
+    <section class="home" id="home">
+      <div class="content">
+        <h3>your travel will be easier</h3>
+        <p>discover new places with us,adventure awaits</p>
+        <a href="" class="btn">discover more</a>
+      </div>
+      <div class="video-container">
+        <video src="images/Let's Discover Tunisia  🇹🇳.mp4" id="video-slider" loop muted autoplay></video>
+      </div>
+    </section>
+    <section class="#book" id="book">
+      <div class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+      </div>
+      <div class="row">
+        <div class="images">
+          <img src="images/book.jpg">
+        </div>
+        <form>
+          <div class="inputdiv">
+            <h3>where to go</h3>
+            <input type="text" placeholder="name a place">
+          </div>
+
+          <div class="inputdiv">
+            <h3>how many</h3>
+            <input type="text" placeholder="write a number">
+          </div>
+
+          <div class="inputdiv">
+            <h3>arrival</h3>
+            <input type="date">
+          </div>
+
+          <div class="inputdiv">
+            <h3>arrival</h3>
+            <input type="date">
+          </div>
+          <a href="" class="btn">book now</a>
+        </form>
+      </div>
+    </section>
+    <!-------------------------------------SECTION-PACKAGES------------------------------------------------------------------------------------------------------->
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <section class="packages" id="packages">
+      <div class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+      </div>
+      <div class="container">
+        <div class="box">
+          <img src="images/p1.jpg">
+          <div class="content">
+           <h3> <i class="fas fa-map-marker-alt"></i>from sousse/monastir:tunisian sahara 2-day tour</h3>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+           <div class="stars">
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="far fa-star"></i> 
+           </div>
+           <div class="price">$90.000<span>$124.000</span></div>
+           <a href="" class="btn">check now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/p2.jpg">
+          <div class="content">
+           <h3> <i class="fas fa-map-marker-alt"></i>kairouan,el jem & sousse day trip with lunch</h3>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+           <div class="stars">
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="far fa-star"></i> 
+           </div>
+           <div class="price">$95.000<span>$125.000</span></div>
+           <a href="" class="btn">check now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/p3.jpg">
+          <div class="content">
+           <h3> <i class="fas fa-map-marker-alt"></i>douz:desert safari,camel ride</h3>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+           <div class="stars">
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="far fa-star"></i> 
+           </div>
+           <div class="price">$80.000<span>$150.000</span></div>
+           <a href="" class="btn">check now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/p4.jpg">
+          <div class="content">
+           <h3> <i class="fas fa-map-marker-alt"></i>tunis:medina guided walking tour</h3>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing emmmmmm</p>
+           <div class="stars">
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="far fa-star"></i> 
+           </div>
+           <div class="price">$90.000<span>$170.000</span></div>
+           <a href="" class="btn">check now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/p5.jpg">
+          <div class="content">
+           <h3> <i class="fas fa-map-marker-alt"></i>sidi bousaid,carthage,medina of tunis daytrip</h3>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+           <div class="stars">
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="far fa-star"></i> 
+           </div>
+           <div class="price">$60.000<span>$90.000</span></div>
+           <a href="" class="btn">check now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/p6.jpg">
+          <div class="content">
+           <h3> <i class="fas fa-map-marker-alt"></i>one-day sahara adventure:djerba matmata</h3>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+           <div class="stars">
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="far fa-star"></i> 
+           </div>
+           <div class="price">$90.000<span>$100.000</span></div>
+           <a href="" class="btn">check now</a>
+          </div>
+        </div>
+
+        
+
+        <div class="box">
+          <img src="images/p8.jpg">
+          <div class="content">
+           <h3> <i class="fas fa-map-marker-alt"></i>from tunis or hammamet:cap bon peninsula full-day tour</h3>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+           <div class="stars">
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="far fa-star"></i> 
+           </div>
+           <div class="price">$90.000<span>$180.000</span></div>
+           <a href="" class="btn">check now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/p9.jpg">
+          <div class="content">
+           <h3> <i class="fas fa-map-marker-alt"></i>djerba:half-day djerba island tour</h3>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+           <div class="stars">
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="fas fa-star"></i> 
+              <i class="far fa-star"></i> 
+           </div>
+           <div class="price">$55.000<span>$70.000</span></div>
+           <a href="" class="btn">check now</a>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <!--------------------------------GALLARY-SECTION-------------------------------------------------------------------------------------------------------->
+    <!--------------------------------------------------------------------------------------------------------------------------------------------------->
+    <section class="gallary" id="gallary">
+      <div class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>a</span>
+        <span>r</span>
+        <span>y</span>
+      </div>
+      <div class="container">
+        <div class="box">
+          <img src="images/bizerte.jpg">
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Bizerte</h3>
+            <a href="" class="btn">See more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/monastir.jpg">
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Monastir</h3>
+            <a href="" class="btn">See more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/djerba.jpg">
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Djerba</h3>
+            <a href="" class="btn">See more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/tozeur.jpg">
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Tozeur</h3>
+            <a href="" class="btn">See more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/tunis.jpg">
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Tunis</h3>
+            <a href="" class="btn">See more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/sfax.jpg">
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Sfax</h3>
+            <a href="" class="btn">See more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/gabes.jpg">
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>gabes</h3>
+            <a href="" class="btn">See more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/sousse.jpg">
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Sousse</h3>
+            <a href="" class="btn">See more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/kairouan.jpg">
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Kairouan</h3>
+            <a href="" class="btn">See more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------------------------------REVIEW-SECTION------------------------------------------------------------------------------------------------------------>
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------->
+    <section class="review" id="review">
+      <h1 class="heading">
+          <span>r</span>
+          <span>e</span>
+          <span>v</span>
+          <span>i</span>
+          <span>e</span>
+          <span>w</span>
+      </h1>
+      <div class=" swiper review-slider">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+               <div class="box">
+                  <img src="images/m1.jpg">
+                  <h3>adem kkkk</h3>
+                  <p>he is very friendly and helpfulLorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+  
+                  </div>
+               </div>   
+              </div>
+  
+              <div class="swiper-slide">
+                  <div class="box">
+                    <img src="images/w1.jpg">
+                    <h3>hanen llll</h3>
+                     <p>she is very friendly and helpful Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="far fa-star"></i>
+     
+                     </div>
+                  </div>   
+                 </div>
+  
+                 <div class="swiper-slide">
+                  <div class="box">
+                    <img src="images/m2.jpg">
+                    <h3>wassim jjj</h3>
+                     <p>he is very friendly and helpful Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="far fa-star"></i>
+                         <i class="far fa-star"></i>
+     
+                     </div>
+                  </div>   
+                 </div>
+
+  
+                 <div class="swiper-slide">
+                  <div class="box">
+                    <img src="images/w2.jpg">
+                    <h3>malek aaa</h3>
+                     <p>she is very friendly and helpful Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="far fa-star"></i>
+                         <i class="far fa-star"></i>
+     
+                     </div>
+                  </div>   
+                 </div>
+
+                 <div class="swiper-slide">
+                  <div class="box">
+                    <img src="images/m3.jpg">
+                    <h3>jasser rrrr</h3>
+                     <p>he is very friendly and helpful Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="far fa-star"></i>
+                         <i class="far fa-star"></i>
+     
+                     </div>
+                  </div>   
+                 </div>
+
+                 <div class="swiper-slide">
+                  <div class="box">
+                    <img src="images/w3.jpg">
+                    <h3>marwa nnn</h3>
+                     <p> she is very friendly and helpful Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="far fa-star"></i>
+                         <i class="far fa-star"></i>
+     
+                     </div>
+                  </div>   
+                 </div>
+
+                
+
+
+
+          </div>
+      </div>
+  
+    </section>
+  <!-------------------------------CONTACT-SECTION---------------------------------------------------------------------------------------------------------------------------------------------->
+  <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+
+    </h1>
+    <div class="row">
+        <div class="images">
+            <img src="images/contact.webp">
+        </div>
+        <form>
+            <div class="inputbox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputbox">
+                <input type="number" placeholder="your phone number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea cols="10" rows="30" placeholder="message"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+    </div>
+
+  </section>
+  <!---------------------------------FOOTER--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <section class="footer" >
+    <div class="container">
+      <div class="box">
+        <h3>about us</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, culpa?</p>
+      </div>
+
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#gallary">gallary</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+      </div>
+
+      <div class="box">
+        <h3>follow us</h3>
+        <a href="#">facebook</a>
+        <a href="#">twitter</a>
+        <a href="#">linkedin</a>
+        <a href="#">instagram</a>
+      </div>
+    </div>
+    <h1 class="created">created by <span>fekih romdhane manar</span></h1>
+
+  </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
